@@ -1,0 +1,113 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[a4paper,top=0.42in,bottom=0.42in,left=0.55in,right=0.55in]{geometry}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+\usepackage{setspace}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\titleformat{\section}
+  {\normalfont\scshape\large\bfseries}
+  {}{0pt}{}[\vspace{-5pt}\rule{\linewidth}{0.45pt}]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\rightdate}[1]{\hfill{\itshape #1}}
+\newcommand{\bulletitem}{\textbullet\,}
+\newcommand{\dashitem}{\hspace{0.18in}--\,}
+
+\begin{document}
+
+% ---------------- HEADER ----------------
+\begin{minipage}[c]{0.13\textwidth}
+    \includegraphics[width=1.02in]{nit_logo_resume.png}
+\end{minipage}
+\begin{minipage}[c]{0.48\textwidth}
+    {\fontsize{17}{19}\selectfont\textbf{Hrishikesh Chandra}}\\[2pt]
+    Roll No.: 26CSM1R05\\
+    Master’s in Technology\\
+    Computer Science \& Technology\\
+    National Institute Of Technology, Warangal
+\end{minipage}
+\begin{minipage}[c]{0.37\textwidth}
+    \raggedleft
+    \faPhone*\ +91-9167197071\\[3pt]
+    \faEnvelope\ \href{mailto:hrishikeshchandra.1505@gmail.com}{hrishikeshchandra.1505@gmail.com}\\[3pt]
+    \faEnvelope\ \href{mailto:hc26csm1r05@student.nitw.ac.in}{hc26csm1r05@student.nitw.ac.in}\\[7pt]
+    \faLinkedin\ \ LinkedIn Profile
+\end{minipage}
+
+% ---------------- EDUCATION ----------------
+\section{Education}
+
+\begin{tabularx}{\linewidth}{@{}Xr@{}}
+\textbf{\bulletitem National Institute of Technology, Warangal} & \textit{2026-2028}\\[-1pt]
+\hspace{0.09in}\textit{Master’s in Technology in Computer Science \& Technology} & CGPA: NA\\[5pt]
+\textbf{\bulletitem International Institute of Information Technology, Bhubaneswar} & \textit{2021-2025}\\[-1pt]
+\hspace{0.09in}\textit{Bachelor’s in Technology in Information Technology} & CGPA: 7.65\\[5pt]
+\textbf{\bulletitem Delhi Public School, Vadodara} & \textit{2020}\\[-1pt]
+\hspace{0.09in}\textit{Central Board of Secondary Education, New Delhi} & Percentage: 88.4
+\end{tabularx}
+
+% ---------------- PROJECTS ----------------
+\section{Personal Projects}
+
+\begin{tabularx}{\linewidth}{@{}Xr@{}}
+\textbf{\bulletitem Qualiscan Automated Packaging and Quality Control System} & \textit{2025}
+\end{tabularx}
+{\itshape AI-based system for automated product quality and defect detection}\\
+Architecture Design, Testing \& Presentation
+
+\begin{itemize}[leftmargin=0.20in,label={},itemsep=1pt,topsep=5pt,parsep=0pt]
+    \item \dashitem Tools \& technologies used: OCR, YOLOv11
+    \item \dashitem QualiScan is an advanced computer vision application designed for automated product inspection and fruit ripeness detection. The system is structured around a modular architecture that integrates frontend, backend, and AI components to deliver real-time, scalable, and accurate inspection capabilities.
+\end{itemize}
+
+\begin{tabularx}{\linewidth}{@{}Xr@{}}
+\textbf{\bulletitem Phonebook Management} & \textit{2021}
+\end{tabularx}
+{\itshape Designed and implemented a modular terminal-based contact directory application.}\\
+Architectural planning and Conceptual design phase of a C-based system.
+
+\begin{itemize}[leftmargin=0.20in,label={},itemsep=1pt,topsep=5pt,parsep=0pt]
+    \item \dashitem Tools \& technologies used: C, Data Structure, File Handling
+    \item \dashitem Designed comprehensive algorithmic flowcharts to map structural application logic, control flow, and data validation rules for contact entry updates.
+    \item \dashitem Authored highly structured technical presentations (PPT) to effectively communicate system requirements and module layout to project stakeholders.
+\end{itemize}
+
+% ---------------- SKILLS ----------------
+\section{Technical Skills and Interests}
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}l@{\hspace{3pt}}X@{}}
+Languages: & C, C++, Python\\
+Developer Tools: & VS Code, Jupyter Notebook, Google Colab, Linux (Ubuntu)\\
+Cloud/Databases: & MySql\\
+Soft Skills: & Communication, Teamwork, Problem Solving, Leadership, Critical Thinking, Creativity\\
+Coursework: & Data Structures \& Algorithms, DBMS, Operating Systems, Machine Learning, Graph Theory, Computer Architecture\\
+Areas of Interest: & Operating System, Machine Learning, Cloud Computing
+\end{tabularx}
+
+% ---------------- RESPONSIBILITY ----------------
+\section{Positions of Responsibility}
+\begin{itemize}[leftmargin=0pt,label={},itemsep=4pt,topsep=0pt,parsep=0pt]
+    \item \textbf{\bulletitem Event Coordinator, Art \& Craft Member} Advatia, Clutural Fest of IIIT Bbsr
+    \item \textbf{\bulletitem Lead, Relation Incharge} Mess Committee
+    \item \textbf{\bulletitem Student Volunteer} Disciplinary Committee
+\end{itemize}
+
+% ---------------- ACHIEVEMENTS ----------------
+\section{Achievements}
+\begin{tabularx}{\linewidth}{@{}Xr@{}}
+\textbf{\bulletitem GATE Rank Holder} \quad Secured an All India Rank of 750 & \textit{GATE 2026}\\[4pt]
+\textbf{\bulletitem JEE Mains Qualifier} \quad Successfully qualified JEE Main & \textit{JEE 2021}
+\end{tabularx}
+
+\end{document}
